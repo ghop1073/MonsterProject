@@ -26,47 +26,47 @@ public class MarshmallowMonster
 
 	}
 	
-	public String getmonsterName()
+	public String getMonsterName()
 	{
 		return monsterName;
 	}
 	
-	public int getmonsterEyes()
+	public int getMonsterEyes()
 	{
 		return monsterEyes;
 	}
 	
-	public int getmonsterNoses()
+	public int getMonsterNoses()
 	{
 		return monsterNoses;
 	}
 	
-	public double getmonsterLegs()
+	public double getMonsterLegs()
 	{
 		return monsterLegs;
 	}
 	
-	public double getmonsterHair()
+	public double getMonsterHair()
 	{
 		return monsterHair;
 	}
 	
-	public boolean getmonsterBellyButton()
+	public boolean getMonsterBellyButton()
 	{
 		return monsterBellyButton;
 	}
 	
-	public void setmonsterName(String monsterName)
+	public void setMonsterName(String monsterName)
 	{
 		this.monsterName = monsterName;
 	}
 	
-	public void setmonsterEyes(int monsterEyes)
+	public void setMonsterEyes(int monsterEyes)
 	{
 		this.monsterEyes = monsterEyes;
 	}
 	
-	public void setmonsterNoses()
+	public void setMonsterNoses()
 	{
 		this.monsterNoses = monsterNoses;
 	}
@@ -81,7 +81,7 @@ public class MarshmallowMonster
 		 this.monsterHair = monsterHair;
 	 }
 	 
-	public void setmonsterBellyButton()
+	public void setMonsterBellyButton()
 	 {
 		 this.monsterBellyButton = monsterBellyButton;
 	 }
