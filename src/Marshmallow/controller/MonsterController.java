@@ -36,6 +36,22 @@ public class MonsterController
 	 System.out.println("I want a new name for a monster, type one please!");
 	 String newMonsterName = monsterScanner.next();
 	 gageMonster.setMonsterName(newMonsterName);
+	 System.out.println("Give me a new number of noses!");
+	 int updatedNoses = monsterScanner.nextInt();
+	 gageMonster.setMonsterNoses(updatedNoses);
+	 System.out.println("Give me a new number of eyes!");
+	 int updatedEyes = monsterScanner.nextInt();
+	 gageMonster.setMonsterEyes(updatedEyes);
+	 System.out.println("Give me a new number of legs.");
+	 double updatedLegs = monsterScanner.nextDouble();
+	 gageMonster.setMonsterLegs(updatedLegs);
+	 System.out.println("Give me a new number of hair.");
+	 double updatedHair = monsterScanner.nextDouble();
+	 gageMonster.setMonsterHair(updatedHair);
+	 System.out.println("Do I still have a belly button, ture or false.");
+	 boolean updatedBellyButton = monsterScanner.nextBoolean();
+	 gageMonster.setMonsterBellyButton(updatedBellyButton);
+	 
  }
  
 }

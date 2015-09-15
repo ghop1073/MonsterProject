@@ -66,22 +66,22 @@ public class MarshmallowMonster
 		this.monsterEyes = monsterEyes;
 	}
 	
-	public void setMonsterNoses()
+	public void setMonsterNoses(int monsterNoses)
 	{
 		this.monsterNoses = monsterNoses;
 	}
 	 
-	public void setMonsterLegs()
+	public void setMonsterLegs(double monsterLegs)
 	 {
 		 this.monsterLegs = monsterLegs;
 	 }
 	 
-	public void setMonsterHair()
+	public void setMonsterHair(double monsterHair)
 	 {
 		 this.monsterHair = monsterHair;
 	 }
 	 
-	public void setMonsterBellyButton()
+	public void setMonsterBellyButton(boolean monsterBellyButton)
 	 {
 		 this.monsterBellyButton = monsterBellyButton;
 	 }
